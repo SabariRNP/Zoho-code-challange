@@ -7,7 +7,7 @@ while(1):
         if n!='G':
            print("Enter correct floor number!!");
            f=0;
-    elif int(n)>12:
+    elif int(n)>12 or int(n)<1:
         print("Enter correct floor number!!");
         f=0;
     else:
