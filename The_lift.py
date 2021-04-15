@@ -14,7 +14,7 @@ while(1):
         f=1;
     if(f):
         diff_pre=12;
-        for x in range(5):
+        for x in range(6):
            if lift_pos[x]=='G':
                 lift_pos[x]=0;
            if n=='G':
