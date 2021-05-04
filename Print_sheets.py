@@ -27,7 +27,7 @@ def checkmatch():
      global j,totorder;
      if(ch!=-1):                                #if best paper is founded, j value is incremented and
          if(len(inputb)>1 and totorder!=0):     #again best paper match for incremented length and breadth is calculated 
-             j+=1;                              #until when match not occur
+             j+=1;                              #until when match occur
          return 1;
      else:
          if(j==0):
